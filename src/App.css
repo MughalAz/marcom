@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.home{
+  height: auto;
+  background-image: url('..//public/assets/images/marcom-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-1{
+  max-width: 250px;
+  height: 30px;
+  border: 2px solid #0adab9;
+  border-radius: 20px;
+  background-color: #1a1f2c;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-1:focus{
+  padding-left: 10px;
+  border: 2px solid #0adab9;
+  color: #fff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-home{
+  font-size: 20px;
+  font-weight: bold;
+}
+.input-1::placeholder{
+  color: #fff;
+  float: right;
+  padding-right: 20px;
+}
+.heading-1{
+  line-height: 50px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-left: 30px;
+}
+.heading-2{
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+padding-top: 50px;
+text-align: right;
+margin-bottom: 100px;
+}
+.para{
+  padding-top: 40px;
+  max-width: 400px;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 30px;
+}
+.btn-1{
+  margin-top: 30px;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-left: 30px;
+  color: #1e2535;
+  background-color: #0adab9;
+}
+.social{
+  margin-bottom: 70px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 40px;
+  margin-left: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.social-1{
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: #fff;
+  margin: 3px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-icon{
+  padding-left: 6px;
+  text-align: center;
 }
